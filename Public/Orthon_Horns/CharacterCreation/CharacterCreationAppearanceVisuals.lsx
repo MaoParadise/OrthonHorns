@@ -34,6 +34,16 @@
                     <attribute id="UUID" type="guid" value="265e2dcb-4d6b-42df-a5b5-dde04e4b82d3"/>
                     <attribute id="VisualResource" type="guid" value="f4c0e5d4-64d6-4917-b934-17357d871b52"/>
                 </node>	
+                <!-- for D -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6ab2f54a312447bb9134df7bfaa6f520" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="b6dccbed-30f3-424b-a181-c4540cf38197"/>
+                    <attribute id="SlotName" type="FixedString" value="Horns"/>  
+                    <attribute id="UUID" type="guid" value="b6dccbed-30f3-424b-a181-c4540cf38197"/>
+                    <attribute id="VisualResource" type="guid" value="370c153e-4230-43c4-aeac-d0ab39c24680"/>
+                </node>	
 
                  <!-- ======== Orthon Horns MS ========== -->
                 <node id="CharacterCreationAppearanceVisual">
