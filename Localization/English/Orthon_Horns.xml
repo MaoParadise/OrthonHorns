@@ -2,8 +2,18 @@
 <contentList>
 	<!-- Stores localized names as UUID handles -->
 	<content contentuid="hd38f8467d4bb4752a78ad3ee8a9a7142" version="1">Orthon Horns A</content>
+	<content contentuid="h38838912490d463da88d03754581e1f3" version="1">Orthon Horns A Top</content>
+	<content contentuid="h50bd7082beed430fa524e8c4ce87ad52" version="1">Orthon Lower Horns A</content>
 	<content contentuid="h188c3980a13c4eb587f96fa9db5dc5c6" version="1">Orthon Horns B</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b0b" version="1">Orthon Horns B Top</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b0c" version="1">Orthon Lower Horns B</content>
 	<content contentuid="ha8b7f1e062bf430d9b58babed90b451a" version="1">Orthon Horns C</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b0d" version="1">Orthon Horns C Top</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b0e" version="1">Orthon Lower Horns C</content>
 	<content contentuid="h6ab2f54a312447bb9134df7bfaa6f520" version="1">Orthon Horns D</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b0f" version="1">Orthon Horns D Top</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b10" version="1">Orthon Lower Horns D</content>
 	<content contentuid="h46f8979c58544d40b93ed21e74b1abf4" version="1">Orthon Horns E</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b11" version="1">Orthon Horns E Top</content>
+	<content contentuid="h0a0b2b6b3b9c4b0e9b7b8b0b0b0b0b12" version="1">Orthon Lower Horns E</content>
 </contentList>
