@@ -4,7 +4,7 @@
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
-			<!-- ======================= Bolas Material ====================== -->
+			<!-- ======================= ORTHON HORNS A MATERIAL ====================== -->
 			<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<!-- Referenced in VisualBank as the MaterialID  -->
@@ -91,8 +91,98 @@
 							<attribute id="Value" type="fvec3" value="0.5699794 0.1131871 0.1007226" />
 						</node>
 					</children>
+			</node>	
+    
+			<!-- ======================= ORTHON HORNS B - C MATERIAL ====================== -->
+			<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<!-- Referenced in VisualBank as the MaterialID  -->
+					<attribute id="ID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<!-- Horns texture file prefix  -->
+					<attribute id="Name" type="LSString" value="ORTHON_Horns" />
+					<!-- This is the same for all horns, dont touch  -->
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+					
+						<!-- Reflection map, unused for horns normally-->				
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<!-- Normal Map NM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+						<!-- Points to the TextureBank where the file location is stored --> 
+							<attribute id="ID" type="FixedString" value="c9f724df-6c66-46cc-8b58-8457f2634fdd" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<!-- Base Color Map BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="e345deac-a568-450c-95d4-12a54b595bd1" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<!-- Gradient Mask Map MSK -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="d55b8ab1-b3c4-42ef-860b-0453774aab39" />
+							<attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
+						</node>
+						<!-- Physical Map PM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="26a61362-87d5-420f-93a5-71f588932f84" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+						<!-- Not a map, store color for the gradients, base value is default shown in characterCreator -->
+						<node id="Vector3Parameters">
+						<!-- Hex would be #2b221d -->
+							<attribute id="BaseValue" type="fvec3" value="0.1686275 0.1372549 0.1137255" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinColor" />
+							<attribute id="Value" type="fvec3" value="0.1686275 0.1372549 0.1137255" />
+						</node>
+						<node id="Vector3Parameters">
+						<!-- Hex would be #18120d -->
+							<attribute id="BaseValue" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinTipColor" />
+							<attribute id="Value" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+						</node>
+						<node id="Vector3Parameters">
+						<!-- Hex would be #911c19, skin color for tieflings -->
+							<attribute id="BaseValue" type="fvec3" value="0.5699794 0.1131871 0.1007226" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="SkinApproxColor" />
+							<attribute id="Value" type="fvec3" value="0.5699794 0.1131871 0.1007226" />
+						</node>
+					</children>
 				</node>	
             </children>
+
 		</node>
 	</region>
 	<region id="TextureBank">
@@ -169,6 +259,24 @@
 					<attribute id="Streaming" type="bool" value="True" />
 					<!-- Match file name -->
 					<attribute id="Template" type="FixedString" value="ORTHON_Horns_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>	
+
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="128" />
+					<!-- Referenced in MaterialBank as SkinGradientHorn_MSK -->
+					<attribute id="ID" type="FixedString" value="d55b8ab1-b3c4-42ef-860b-0453774aab39" />
+					<!-- Match file name -->
+					<attribute id="Name" type="LSString" value="ORTHON_Horns_B_C_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<!-- Texture file location -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/ORTHON_Horns_B_C_MSK.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<!-- Match file name -->
+					<attribute id="Template" type="FixedString" value="ORTHON_Horns_B_C_MSK" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="128" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
@@ -277,7 +385,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_B.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
@@ -331,7 +439,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_C.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
@@ -605,7 +713,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_MS_B.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
@@ -659,7 +767,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_MS_C.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
@@ -933,7 +1041,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_F_B.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
@@ -987,7 +1095,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_F_C.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
@@ -1260,7 +1368,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_FS_B.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
@@ -1314,7 +1422,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<!-- Material ID from the MaterialBanks -->				
-							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<attribute id="MaterialID" type="FixedString" value="078c3b60-8ec8-4c9f-9fa0-ba71369b8aba" />
 							<!-- Must match name of mesh itself, not just file name -->
 							<attribute id="ObjectID" type="FixedString" value="ORTHON_Horns_FS_C.ORTHON_Horns_A_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
