@@ -101,7 +101,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="h6ab2f54a312447bb9134df7bfaa6f520" version="1"/>
                     <attribute id="RaceUUID" type="guid" value="b6dccbed-30f3-424b-a181-c4540cf38197"/>
                     <attribute id="SlotName" type="FixedString" value="Horns"/>  
-                    <attribute id="UUID" type="guid" value="e7517e5c-9c91-4e4a-84ee-9874ba075774"/>
+                    <attribute id="UUID" type="guid" value="f5d1a59b-e76c-4bec-b716-9e1ec08ed849"/>
                     <attribute id="VisualResource" type="guid" value="2974a32f-f9e2-4553-820f-2eb05505266e"/>
                 </node>	
                 <node id="CharacterCreationAppearanceVisual">
