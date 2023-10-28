@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-  <version major="4" minor="0" revision="0" build="49"/>
+  <version major="4" minor="0" revision="7" build="2" />
   <region id="Config">
     <node id="root">
       <children>
@@ -22,8 +22,11 @@
           <attribute id="Tags" type="LSWString" value=""/>
           <attribute id="Type" type="FixedString" value="Add-on"/>
           <attribute id="UUID" type="FixedString" value="cc869b59-a2b6-4ed0-a7c6-58801b7a5255"/>
-          <attribute id="Version" type="int32" value="1"/>
+          <attribute id="Version64" type="int64" value="36591746972385280"/>
           <children>
+            <node id="PublishVersion">
+              <attribute id="Version64" type="int64" value="144115196665790673"/>
+            </node>
             <node id="Scripts"/>
             <node id="TargetModes">
               <children>
