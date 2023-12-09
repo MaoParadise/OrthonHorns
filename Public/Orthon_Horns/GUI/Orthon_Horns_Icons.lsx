@@ -51,6 +51,20 @@
                     <attribute id="V1" type="float" value="0.03637695275"/>
                     <attribute id="V2" type="float" value="0.0729980465"/>
                 </node>
+                <node id="IconUV"> DGB_M
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_dd591430-58d3-45bb-97c4-73c2b290242a"/>
+                    <attribute id="U1" type="float" value="0.000244141"/>
+                    <attribute id="U2" type="float" value="0.018066405875"/>
+                    <attribute id="V1" type="float" value="0.000244141"/>
+                    <attribute id="V2" type="float" value="0.03637695275"/>
+                </node>
+                <node id="IconUV"> DGB_F
+                    <attribute id="MapKey" type="FixedString" value="1_Horns_c5f63d53-a42a-457c-b647-676c83802d38"/>
+                    <attribute id="U1" type="float" value="0.000244141"/>
+                    <attribute id="U2" type="float" value="0.018066405875"/>
+                    <attribute id="V1" type="float" value="0.03637695275"/>
+                    <attribute id="V2" type="float" value="0.0729980465"/>
+                </node>
             Horn_02
                 <node id="IconUV"> TIF_M
                     <attribute id="MapKey" type="FixedString" value="0_Horns_f2d3b36c-3f3d-4ef7-9da2-efb89b642b62"/>
@@ -75,6 +89,20 @@
                 </node>
                 <node id="IconUV"> TIF_FS
                     <attribute id="MapKey" type="FixedString" value="1_Horns_59857c55-215b-4c5c-8332-5b06df07baca"/>
+                    <attribute id="U1" type="float" value="0.018554687875"/>
+                    <attribute id="U2" type="float" value="0.03637695275"/>
+                    <attribute id="V1" type="float" value="0.03637695275"/>
+                    <attribute id="V2" type="float" value="0.0729980465"/>
+                </node>
+                <node id="IconUV"> DGB_M
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_1e4c8bc3-5a5e-4b40-85a2-a7c17c54df72"/>
+                    <attribute id="U1" type="float" value="0.018554687875"/>
+                    <attribute id="U2" type="float" value="0.03637695275"/>
+                    <attribute id="V1" type="float" value="0.000244141"/>
+                    <attribute id="V2" type="float" value="0.03637695275"/>
+                </node>
+                <node id="IconUV"> DGB_F
+                    <attribute id="MapKey" type="FixedString" value="1_Horns_b1337bbf-4264-49fc-ab0e-8b67e4cf821b"/>
                     <attribute id="U1" type="float" value="0.018554687875"/>
                     <attribute id="U2" type="float" value="0.03637695275"/>
                     <attribute id="V1" type="float" value="0.03637695275"/>
@@ -109,6 +137,20 @@
                     <attribute id="V1" type="float" value="0.03637695275"/>
                     <attribute id="V2" type="float" value="0.0729980465"/>
                 </node>
+                <node id="IconUV"> DGB_M
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_5c3a9472-1788-4cea-ba02-5b6e9f244df6"/>
+                    <attribute id="U1" type="float" value="0.03686523475"/>
+                    <attribute id="U2" type="float" value="0.054687499625"/>
+                    <attribute id="V1" type="float" value="0.000244141"/>
+                    <attribute id="V2" type="float" value="0.03637695275"/>
+                </node>
+                <node id="IconUV"> DGB_F
+                    <attribute id="MapKey" type="FixedString" value="1_Horns_34da6e71-f4cf-47f2-aabc-95080dd38ec6"/>
+                    <attribute id="U1" type="float" value="0.03686523475"/>
+                    <attribute id="U2" type="float" value="0.054687499625"/>
+                    <attribute id="V1" type="float" value="0.03637695275"/>
+                    <attribute id="V2" type="float" value="0.0729980465"/>
+                </node>
             Horn_04
                 <node id="IconUV"> TIF_M
                     <attribute id="MapKey" type="FixedString" value="0_Horns_69728787-5660-4e70-b144-7fce70c56393"/>
@@ -133,6 +175,20 @@
                 </node>
                 <node id="IconUV"> TIF_FS
                     <attribute id="MapKey" type="FixedString" value="1_Horns_71e0e76b-275f-4dd6-994f-126b2a6204c6"/>
+                    <attribute id="U1" type="float" value="0.091796875375"/>
+                    <attribute id="U2" type="float" value="0.10961914025"/>
+                    <attribute id="V1" type="float" value="0.03637695275"/>
+                    <attribute id="V2" type="float" value="0.0729980465"/>
+                </node>
+                <node id="IconUV"> DGB_M
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_9172e523-90f1-47ef-820c-eb52b48cd494"/>
+                    <attribute id="U1" type="float" value="0.091796875375"/>
+                    <attribute id="U2" type="float" value="0.10961914025"/>
+                    <attribute id="V1" type="float" value="0.000244141"/>
+                    <attribute id="V2" type="float" value="0.03637695275"/>
+                </node>
+                <node id="IconUV"> DGB_F
+                    <attribute id="MapKey" type="FixedString" value="1_Horns_7ac45ea4-13f8-472a-8104-7552e2b8c303"/>
                     <attribute id="U1" type="float" value="0.091796875375"/>
                     <attribute id="U2" type="float" value="0.10961914025"/>
                     <attribute id="V1" type="float" value="0.03637695275"/>
@@ -167,6 +223,20 @@
                     <attribute id="V1" type="float" value="0.03637695275"/>
                     <attribute id="V2" type="float" value="0.0729980465"/>
                 </node>
+                <node id="IconUV"> DGB_M
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_c9d2af61-da5c-4997-94de-46289fb95a50"/>
+                    <attribute id="U1" type="float" value="0.055175781625"/>
+                    <attribute id="U2" type="float" value="0.0729980465"/>
+                    <attribute id="V1" type="float" value="0.000244141"/>
+                    <attribute id="V2" type="float" value="0.03637695275"/>
+                </node>
+                <node id="IconUV"> DGB_F
+                    <attribute id="MapKey" type="FixedString" value="1_Horns_8693731e-507c-4994-b36b-025617af617f"/>
+                    <attribute id="U1" type="float" value="0.055175781625"/>
+                    <attribute id="U2" type="float" value="0.0729980465"/>
+                    <attribute id="V1" type="float" value="0.03637695275"/>
+                    <attribute id="V2" type="float" value="0.0729980465"/>
+                </node>
             Horn_06
                 <node id="IconUV"> TIF_M
                     <attribute id="MapKey" type="FixedString" value="0_Horns_49facd0b-0b07-4440-936f-1a1b5537d8b6"/>
@@ -191,6 +261,20 @@
                 </node>
                 <node id="IconUV"> TIF_FS
                     <attribute id="MapKey" type="FixedString" value="1_Horns_9681098e-e475-47b6-8845-3d6361184222"/>
+                    <attribute id="U1" type="float" value="0.0734863285"/>
+                    <attribute id="U2" type="float" value="0.091308593375"/>
+                    <attribute id="V1" type="float" value="0.03637695275"/>
+                    <attribute id="V2" type="float" value="0.0729980465"/>
+                </node>
+                <node id="IconUV"> DGB_M
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_a6a23f4a-2c49-494a-879d-563213da9c8c"/>
+                    <attribute id="U1" type="float" value="0.0734863285"/>
+                    <attribute id="U2" type="float" value="0.091308593375"/>
+                    <attribute id="V1" type="float" value="0.000244141"/>
+                    <attribute id="V2" type="float" value="0.03637695275"/>
+                </node>
+                <node id="IconUV"> DGB_F
+                    <attribute id="MapKey" type="FixedString" value="1_Horns_dd3f5ae3-58d7-4c64-b380-2ffd1e220e6f"/>
                     <attribute id="U1" type="float" value="0.0734863285"/>
                     <attribute id="U2" type="float" value="0.091308593375"/>
                     <attribute id="V1" type="float" value="0.03637695275"/>
