@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-  <version major="4" minor="0" revision="7" build="2" />
+  <version major="1" minor="4" revision="4" build="0"/>
   <region id="Config">
     <node id="root">
       <children>
@@ -8,7 +8,7 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSWString" value="MaoPäradise"/>
           <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-          <attribute id="Description" type="LSWString" value="Additional horns for Tieflings based in the Orthon Horns"/>
+          <attribute id="Description" type="LSWString" value="Additional horns for various races based on Orthon Horns"/>
           <attribute id="Folder" type="LSWString" value="Orthon_Horns"/>
           <attribute id="GMTemplate" type="FixedString" value=""/>
           <attribute id="LobbyLevelName" type="FixedString" value=""/>
@@ -22,10 +22,10 @@
           <attribute id="Tags" type="LSWString" value=""/>
           <attribute id="Type" type="FixedString" value="Add-on"/>
           <attribute id="UUID" type="FixedString" value="cc869b59-a2b6-4ed0-a7c6-58801b7a5255"/>
-          <attribute id="Version64" type="int64" value="36591746972385280"/>
+          <attribute id="Version64" type="int64" value="36591755562319872" />
           <children>
             <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="144115196665790673"/>
+              <attribute id="Version64" type="int64" value="36591755562319872"/>
             </node>
             <node id="Scripts"/>
             <node id="TargetModes">
