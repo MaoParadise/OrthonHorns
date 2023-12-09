@@ -1814,6 +1814,224 @@
 						
 					</children>
 				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="5c3a9472-1788-4cea-ba02-5b6e9f244df6" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns_C" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_C/DGB_ORTHON_Horns_C_M.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_C/DGB_ORTHON_Horns_C_M.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_C_M.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						
+					
+						
+					</children>
+				</node>
+				<!-- D HORNS TOP AND HORNS WITH LOWER HORNS -->
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="9172e523-90f1-47ef-820c-eb52b48cd494" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_M_COMPLETE.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_M_COMPLETE.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="9f351999-400a-4298-9215-6184d8b84065" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_D_M_COMPLETE.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						
+					
+						
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="c9d2af61-da5c-4997-94de-46289fb95a50" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_M_TOP.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_M_TOP.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="9f351999-400a-4298-9215-6184d8b84065" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_D_M_TOP.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						
+					
+						
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="a6a23f4a-2c49-494a-879d-563213da9c8c" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_M_LOWER_HORNS.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_M_LOWER_HORNS.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="9f351999-400a-4298-9215-6184d8b84065" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_D_M_LOWER_HORNS.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						
+					
+						
+					</children>
+				</node>
+
 			<!-- DGB ORTHON HORNS F ( A - B - C - D ) -->
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
@@ -1923,6 +2141,217 @@
 						
 					</children>
 				</node>	
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="34da6e71-f4cf-47f2-aabc-95080dd38ec6" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns_C" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_C/DGB_ORTHON_Horns_C_F.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_C/DGB_ORTHON_Horns_C_F.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="ef9ed40f-c1fe-4a86-af76-ebfe7c9a578c" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_C_F.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						
+					
+						
+					</children>
+				</node>	
+				<!-- D HORNS TOP AND HORNS WITH LOWER HORNS -->
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="7ac45ea4-13f8-472a-8104-7552e2b8c303" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_F_COMPLETE.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_F_COMPLETE.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="9f351999-400a-4298-9215-6184d8b84065" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_D_F_COMPLETE.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						
+					
+						
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="8693731e-507c-4994-b36b-025617af617f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_F_TOP.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_F_TOP.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="9f351999-400a-4298-9215-6184d8b84065" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_D_F_TOP.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<!-- Need to figure out where BoundsMax, BoundsMin, Center values come from -->   				
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<!-- Unique generated UUID for Horns-->
+					<!--Referenced in CharacterCreationAppearanceVisuals.lsx-->
+					<attribute id="ID" type="FixedString" value="dd3f5ae3-58d7-4c64-b380-2ffd1e220e6f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<!-- File Name -->
+					<attribute id="Name" type="LSString" value="DGB_ORTHON_Horns" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" /> 
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<!--Humanoid F Rig - Might be optional? not used in the other F horns, just blank ""-->
+					<attribute id="SkeletonResource" type="FixedString" value="edda91cd-d2be-3296-087c-45477f36daaa" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<!-- File Location for the mesh i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.GR2 -->				
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_F_LOWER_HORNS.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<!-- File Location for the mesh dummy root, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/MESH_PREFIX.Dummy_Root.0 -->				
+					<attribute id="Template" type="FixedString" value="Generated/Public/Orthon_Horns/[PAK]_Orthon_Horns/Orthon_Horns_D/DGB_ORTHON_Horns_D_F_LOWER_HORNS.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+				
+					<children>	
+					<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node> 
+						
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<!-- Material ID from the MaterialBanks -->				
+							<attribute id="MaterialID" type="FixedString" value="9f351999-400a-4298-9215-6184d8b84065" />
+							<!-- Must match name of mesh itself, not just file name -->
+							<attribute id="ObjectID" type="FixedString" value="DGB_ORTHON_Horns_D_F_LOWER_HORNS.ORTHON_Horns_A_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>											
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
